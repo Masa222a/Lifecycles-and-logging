@@ -164,13 +164,13 @@ class MainActivity : AppCompatActivity() {
             return super.onOptionsItemSelected(item)
         }
 
-        override fun onSaveInstanceState(outState: Bundle) {
+/*        override fun onSaveInstanceState(outState: Bundle) {
             super.onSaveInstanceState(outState)
             Timber.i("onSaveInstanceState Called")
             outState.putInt(KEY_REVENUE, revenue)
             outState.putInt(KEY_DESSERT_SOLD, dessertsSold)
             outState.putInt(KEY_TIMER_SECONDS, dessertTimer.secondsCount)
-        }
+        }*/
 
         override fun onStart() {
             super.onStart()
